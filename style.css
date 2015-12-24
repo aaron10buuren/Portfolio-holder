@@ -1,5 +1,5 @@
 body {
-  background-color: #1A232F;
+  background-color: white;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -7,20 +7,19 @@ body {
 }
 
 h1 {
-  font: italic 5em/0em 'Playfair Display', serif;
-  color: #3E444D;
-  letter-spacing: 0px;
+  font: 5em/0em 'Open Sans', sans-serif;
+  color: #C6C6CB;
 }
 
 h2 {
   font: normal .8em/2em 'pt mono';
   letter-spacing: 1px;
-  color: #999999;
+  color: #C6C6CB;
 }
 
 
 a {
-  color: #FFFFFF;
+  color: #1A232F;
   text-decoration: none;
 }
 
