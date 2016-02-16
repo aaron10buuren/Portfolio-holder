@@ -2,35 +2,38 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   overflow-x: hidden;
 }
 
 h1 {
-  font: 5em/0em 'Open Sans', sans-serif;
+  font: 3.5em "proxima-nova", sans-serif;;
+  font-weight: 800;
+  font-style: italic;
   color: #C6C6CB;
 }
 
 h2 {
-  font: normal .8em/2em 'pt mono';
-  letter-spacing: 1px;
+  font: normal 1.6em/1.2em "adobe-caslon-pro", serif;
   color: #C6C6CB;
+  margin-top: 40px;
 }
 
 
 a {
-  color: #1A232F;
-  text-decoration: none;
+  color: #05a9f4;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 a:hover {
-    color: #A6CE5E;
+    color: #1A232F;
 }
 
-.text {
-  max-width: 50%;
-  margin-left: 80px;
-  margin-top: 12%;
+.links {
+  max-width: 640px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
 .info {
@@ -38,11 +41,11 @@ a:hover {
 }
 
 div.hr {
-background: #A6CE5E;
+background: #05a9f4;
 width: 250px;
 height: 3px;
-margin-top: 90px;
-margin-bottom: 50px;
+margin-top: 60px;
+margin-bottom: 60px;
 }
 
 div.hr hr {
